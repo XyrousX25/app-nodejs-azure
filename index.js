@@ -8,7 +8,7 @@ const CADENA_CONEXION = process.env.SQLCONNSTR_MiBaseDeDatos || "No configurada"
 app.get("/", (req, res) => {
   res.send(`
     <h1>${NOMBRE_APP}</h1>
-    <p>Corriendo en Azure App Service</p>
+    <p>Desplegado automaticamente con GitHub Actions</p>
   `);
 });
 
